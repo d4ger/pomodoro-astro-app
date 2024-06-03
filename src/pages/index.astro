@@ -1,13 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import CardFocus from '../components/CardFocus.astro';
+import CardBreak from '../components/CardBreak.astro';
+import CardLongBreak from '../components/cardlongbreak.astro';
+import CardSwitcher from '../components/switchers/CardSwitcher.jsx'
 ---
 
 <Layout>
 	<main>
-		<Card title="Focus Time">
-		<p>Este es el contenido de la tarjeta.</p>
-		</Card>	
-		
+		<CardSwitcher />
 	</main>
 </Layout>
